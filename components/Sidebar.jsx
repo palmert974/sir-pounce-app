@@ -4,28 +4,24 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.content}>
-        <h3 className={styles.title}>Quick Links</h3>
+        <h3 className={styles.title}>Other Cats</h3>
         <ul className={styles.linkList}>
           <li className={styles.linkItem}>
-            <a href="#" className={styles.link}>Dashboard</a>
+            <a href="#" className={styles.link}>Chairman Meow</a>
           </li>
           <li className={styles.linkItem}>
-            <a href="#" className={styles.link}>Profile</a>
+            <a href="#" className={styles.link}>Lint Trap</a>
           </li>
           <li className={styles.linkItem}>
-            <a href="#" className={styles.link}>Settings</a>
+            <a href="#" className={styles.link}>Whisker T. Fluffington</a>
           </li>
           <li className={styles.linkItem}>
-            <a href="#" className={styles.link}>Help</a>
+            <a href="#" className={styles.link}>Reginald Floofypants</a>
+          </li>
+          <li className={styles.linkItem}>
+            <a href="#" className={styles.link}>Mister Mittens</a>
           </li>
         </ul>
-        
-        <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Recent Activity</h4>
-          <div className={styles.activity}>
-            <p className={styles.activityItem}>No recent activity</p>
-          </div>
-        </div>
       </div>
     </aside>
   );
