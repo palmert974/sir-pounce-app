@@ -1,5 +1,5 @@
 import styles from './ProfileCard.module.css';
-import pounceImg from '../src/pounce.jpg';
+import pounceImg from '../pounce.jpg';
 
 const ProfileCard = () => {
   return (

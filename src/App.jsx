@@ -1,4 +1,4 @@
-import { Header, Footer, Sidebar, ProfileCard } from '../components';
+import { Header, Footer, Sidebar, ProfileCard } from './components';
 import './App.css';
 
 function App() {
